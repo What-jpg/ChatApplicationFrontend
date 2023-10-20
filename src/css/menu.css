@@ -1,0 +1,27 @@
+#menu-container {
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    top: 0;
+    left: 0;
+    background-color: #3b3b3b;
+}
+
+#menu-top-elements-container {
+    height: 4%;
+    padding: 0px;
+    width: 100%;
+}
+
+#menu-header {
+    color: #ffffff;
+    font-size: 2vw;
+}
+
+#menu-header-box {
+    display: inline-block;
+    height: 100%;
+    width: 82.5%;
+    vertical-align: center;
+    text-align: center;
+}

@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,204 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  min-height: 100%;
+  background-color: #363636;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#search-items-box {
+  width: 100%;
+  height: 24%;
+}
+
+.search-item {
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  border-left: 0.25%;
+  border-right: 0.25%;
+  background-color: #ffffff;
+  font-size: 1.75vw;
+}
+
+.search-item-hover {
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  border-left: 0.25%;
+  border-right: 0.25%;
+  background-color: #e0e0e0;
+  font-size: 1.75vw;
+}
+
+.search-item-user-id {
+  color: #858585;
+  font-size: 1.25vw;
+  margin-bottom: 0%;
+  margin-block-start: 0%;
+}
+
+#scrool-page {
+  position: absolute;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 94.75%;
+  width: 20%;
+  top: 5.25%;
+  background-color: #3b3b3b;
+  bottom: 0px;
+}
+
+#scroll-page-user-input-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+#user-search-input {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 5%;
+  padding: 0px;
+  border-color: transparent;
+  border-width: 0%;
+  width: 100%;
+}
+
+#user-search-input:focus {
+  border-width: 0%;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  border-color: transparent;
+  outline: none;
+}
+
+#user-search-input-container {
+  vertical-align: middle;
+  display: inline-block;
+  padding: 0px;
+  margin-left: 1.5%;
+  width: 82.5%;
+  height: 100%;
+}
+
+#top-elements-container {
+  height: 4%;
+  position: absolute;
+  padding: 0px;
+  width: 20%;
+}
+
+.scrool-page-item {
+  width: 100%;
+  height: 8%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: #4f4f4f;
+  font-size: 85%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.scrool-page-item-text {
+  position: relative;
+  top: -30%;
+}
+
+#chat-box {
+  position: absolute;
+  left: 20%;
+  top: 0px;
+  background-color: #6b6b6b;
+  height: 100%;
+  width: 80%;
+}
+
+#chat-box-user-header {
+  width: 100%;
+  text-align: end;
+  background-color: #595959;
+  height: 7.5%;
+}
+
+#chat-box-input-box {
+  position: relative;
+  width: 100%;
+  height: 5%;
+}
+
+#chat-box-input {
+  width: 60%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  padding: 0px;
+  border-width: 0px;
+}
+
+#chat-box-button {
+  width: 18.5%;
+  position: absolute;
+  top: 0;
+  right: 20%;
+  height: 100%;
+}
+
+#chat-box-file-input {
+  width: 18.5%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+#chat-box-message-box {
+  height: 87.5%;
+  overflow-y: scroll;
+  scroll-behavior: smooth; 
+}
+
+#chat-box-user-header-p {
+  margin-top: 0px;
+  font-size: 3vw;
+  color: white;
+  margin-right: 10%;
+}
+
+.user-message-box {
+  width: 100%;
+}
+
+.this-user-message {
+  background-color: #919191;
+  display: block;
+  padding-right: 0.5%;
+  padding-right: 0.5%;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: 2%;
+  width: 40%;
+  border-radius: 2.5%;
+  line-break: anywhere;
+}
+
+.other-user-message {
+  background-color: #808080;
+  display: block;
+  padding-right: 0.5%;
+  padding-right: 0.5%;
+  color: #ffffff;
+  margin-left: 2%;
+  width: 40%;
+  border-radius: 2.5%;
+  white-space: pre-line;
+  line-break: anywhere;
 }

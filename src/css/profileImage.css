@@ -1,0 +1,24 @@
+.profile-image {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50%;
+    height: wif;
+    border-radius: 100%;
+}
+
+.chat-image {
+    position: relative;
+    top: 50%;
+    left: -20%;
+    transform: translate(0%, -50%);
+    aspect-ratio: 1 / 1;
+    height: 80%;
+    width: wif;
+    border-radius: 100%;
+}
+
+.chat-image-box {
+
+}
